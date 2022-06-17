@@ -1,0 +1,58 @@
+[
+    {
+        "model": "app_api.skilltype",
+        "pk": 1,
+        "fields": {
+            "label": "math"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 2,
+        "fields": {
+            "label": "reading"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 3,
+        "fields": {
+            "label": "science"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 4,
+        "fields": {
+            "label": "social-studies"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 5,
+        "fields": {
+            "label": "history"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 6,
+        "fields": {
+            "label": "adventure"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 7,
+        "fields": {
+            "label": "field-trip"
+        }
+    },
+    {
+        "model": "app_api.skilltype",
+        "pk": 8,
+        "fields": {
+            "label": "parent-student pow-wow"
+        }
+    }
+]

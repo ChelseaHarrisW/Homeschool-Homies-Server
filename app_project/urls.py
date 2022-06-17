@@ -15,10 +15,23 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import include
+from rest_framework import routers
 from app_api.views import register_user, login_user
+from app_api.views.lesson_view import LessonView
+from app_api.views.parent_view import ParentView
+from app_api.views.skill_type_view import SkillTypeView
+from app_api.views.student_view import StudentView
+
+router = routers.DefaultRouter(trailing_slash=False)
+router.register(r'lessons', LessonView, 'lesson')
+router.register(r'skill_types', SkillTypeView, 'SkillType')
+router.register(r'teachers', ParentView, 'Parent')
+router.register(r'students', StudentView, 'student')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register', register_user),
     path('login', login_user),
+    path('', include(router.urls)),
 ]

@@ -1,0 +1,22 @@
+[
+    {
+        "model": "app_api.student",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "bio": "My mom is cool, no she didn't write this, your mom did.",
+            "age": 3,
+            "parent": 1
+        }
+    },
+    {
+        "model": "app_api.student",
+        "pk": 2,
+        "fields": {
+            "user": 3,
+            "bio": "RARRRRRRRW.",
+            "age": 1,
+            "parent": 1
+        }
+    }
+]           

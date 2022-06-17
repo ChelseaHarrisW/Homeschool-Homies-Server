@@ -1,0 +1,47 @@
+[
+    {
+        "model": "app_api.lesson",
+        "pk": 1,
+        "fields": {
+            "subject":2,
+            "parent":1,
+            "title":"Reading with Mrs Chelsea: Garden series 0 of 6 ",
+            "details": "We wil be in the garden for 2 hours reading about species of nightshades, if your kids are destructive please dont come. Check my events for more garden adventures",
+            "location": "my front yard",
+            "min_age": 2,
+            "max_age": 5,
+            "date": "2022-07-30",
+            "time": "18:00:00"
+        }
+    },
+    {
+        "model": "app_api.lesson",
+        "pk": 2,
+        "fields": {
+            "subject":3,
+            "parent":1,
+            "title":"Gardening: a scientific exploration expedition 1 of 6",
+            "details": "We wil be in the garden exploring for 2 hours discussing various species of nightshades, if your kids are destructive please dont come.",
+            "location": "my front yard",
+            "min_age": 2,
+            "max_age": 5,
+            "date": "2022-08-30",
+            "time": "18:00:00"
+        }
+    },
+    {
+        "model": "app_api.lesson",
+        "pk": 3,
+        "fields": {
+            "subject":3,
+            "parent":1,
+            "title":"Gardening: a scientific exploration expedition 2 of 6",
+            "details": "We wil be in the garden exploring for 2 hours discussing various species of nightshades, and learning about soil-prep to prepare for new seeds if your kids are destructive please come the last hour only.",
+            "location": "my front yard",
+            "min_age": 2,
+            "max_age": 5,
+            "date": "2022-08-30",
+            "time": "18:00:00"
+        }
+    }
+]

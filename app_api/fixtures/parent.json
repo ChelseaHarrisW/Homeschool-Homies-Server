@@ -1,0 +1,11 @@
+[
+    {
+        "model": "app_api.parent",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "Yuri and Josh's mom, Come Join us for some great learning experiences and outdoor FUN",
+            "employment_status": "Software Engineer"
+        }
+    }
+]

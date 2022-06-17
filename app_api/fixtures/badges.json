@@ -1,0 +1,79 @@
+[
+    {
+        "model": "app_api.badgetype",
+        "pk": 1,
+        "fields": {
+            "label": "mighty math maker"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 2,
+        "fields": {
+            "label": "reading reward"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 3,
+        "fields": {
+            "label": "happy science"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 4,
+        "fields": {
+            "label": "social-studies star"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 5,
+        "fields": {
+            "label": "historian"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 6,
+        "fields": {
+            "label": "adventuring- adventurer"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 7,
+        "fields": {
+            "label": "8-field-trips"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 8,
+        "fields": {
+            "label": "catalyze me captain"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 9,
+        "fields": {
+            "label": "analytical annulation"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 10,
+        "fields": {
+            "label": "critical thinker of the month"
+        }
+    },
+    {
+        "model": "app_api.badgetype",
+        "pk": 11,
+        "fields": {
+            "label": "garden-guru"
+        }
+    }
+]
